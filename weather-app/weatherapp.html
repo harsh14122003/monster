@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-app-using-js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Weather_Contaienr">
+        <div class="weather-group">
+            <div class="container">
+                <!-- HEADER HTML -->
+                <div class="header">
+                    <div class="search-box">
+                        <input type="text" placeholder="enter your location" class="input-box">
+                        <button class="fa-solid fa-magnifying-glass" id="searchbtn"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- WEATHER BODY light rain and  -->
+            <div class="weather-body">
+                <img src="./assets/cloud.png" alt="weather image" class="weather-img">
+                <div class="weater-box">
+                    <p class="temprature">0<sup>°C</sup></p>
+                    <p class="discription"> light rain</p>
+                </div>
+            </div>
+            <!-- rain drop and wind details  -->
+            <div class="weather-details">
+
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">00%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">00</span>
+                        <p>wind-speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/4d922df4ec.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
