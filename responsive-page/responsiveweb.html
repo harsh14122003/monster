@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website with navbar </title>
+</head>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<!--/ google fonts -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<body>
+    <header>
+        <h1> my logo</h1>
+
+        <section class="menu">
+            <ul class="main-list">
+                <li>HOME</li>
+                <li class="active">PRODUCTS</li>
+                <li>about US</li>
+                <li>CONTACT</li>
+
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <h1 class="title">info
+                tech</h1>
+            <p class="msg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque a earum dicta voluptates illum?
+                Aperiam iure soluta quibusdam magnam.
+            </p>
+            <button class="ctn">learn more </button>
+        </section>
+
+        <section class="right">
+            <img src="img/img.svg" alt="">
+        </section>
+
+    </section>
+
+
+
+</body>
+<script>
+
+let menu = document.querySelector('.menu');
+    let menubtn = document.querySelector('.menu button');
+    menubtn.addEventListener('click', () => {
+        menu.classList.toggle('opened');
+    })
+</script>
+
+</html>
