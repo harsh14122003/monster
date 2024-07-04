@@ -146,3 +146,84 @@ body {
     margin-left: 12px;
     font-weight: 700;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .weather-group {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .search-box input {
+        font-size: 16px;
+    }
+
+    .search-box button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .weater-box .temprature {
+        font-size: 32px;
+    }
+
+    .weater-box .temprature sup {
+        font-size: 16px;
+    }
+
+    .weater-box .discription {
+        font-size: 16px;
+    }
+
+    .weather-details .text {
+        font-size: 16px;
+    }
+
+    .text span {
+        font-size: 18px;
+    }
+
+    .weather-details i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-group {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .search-box input {
+        font-size: 14px;
+    }
+
+    .search-box button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .weater-box .temprature {
+        font-size: 28px;
+    }
+
+    .weater-box .temprature sup {
+        font-size: 14px;
+    }
+
+    .weater-box .discription {
+        font-size: 14px;
+    }
+
+    .weather-details .text {
+        font-size: 14px;
+    }
+
+    .text span {
+        font-size: 16px;
+    }
+
+    .weather-details i {
+        font-size: 20px;
+    }
+}
